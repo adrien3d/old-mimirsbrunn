@@ -37,7 +37,6 @@ config.workspace = true
 
 [dev-dependencies]
 criterion = { version = "0.3", features = ["async_tokio"] }
-uuid = { version = "0.8", features = ["serde", "v4"] }
 rand = "0.8"
 serial_test.workspace = true
 speculoos.workspace = true
